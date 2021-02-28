@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>StuSkill</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar clearfix"><center>
+                <ul>
+                    <li class="shift"><a href="#purpose">Purpose</a></li>
+                    <li class="shift"><a href="#test">Know Yourself</a></li>
+                    <li class="shift"><a href="#contact">Contact Us</a></li>
+                    <li class="shift"><a href="adminlogin.html">Admin</a></li>
+                </ul>
+            </nav></center>
+        </header>
+        <section class="purpose" id="purpose">
+            <img src="bgvector.png" alt="Purpose">
+            <span class="text"><br><br><br>Vast majority of first year students get intimidated by the vast curriculum and fields.Hence, they face troubles in understanding their strengths and weaknesses. Identifyingwhere one stands in terms of Domain, Interests, Personality and Orientation is veryimportant for every student to move forward in life as it gives them a betterunderstanding of themselves and how they function forward.This project will be able to help students to identify their strengths and weaknesses byanswering certain quiz questions with utmost confidence and honesty. The outcome ofthis project will be based on the answers and the thorough research of different types ofdomains, interests, personalities and orientations. We really hope that the result weprovide will be as accurate as possible and students can benefit from it and gainconfidence.</span>
+            <br><br><a href="../OSP Proj Review-1.pdf" class="btn-full"><b>Know more</b></a><br><br><br>
+        </section>
+        <section class="counter"><center>
+            <p>Always happy to HELP</p></center>
+        </section>
+        <section class="test" id="test">
+            <div class="row">
+                <h2>Get to know the real you.<br><span>&nbsp;&nbsp;&nbsp;&nbsp;The one you're yet to meet.</span></h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <img src="testimg.png" alt="Domain">
+                    <p>Confused about your <span>Domain</span>?</p>
+                    <p>We'll help you.</p><br><br>
+                    <a href="../domainques.php" class="btn-full"><b>Take the test</b></a>
+                </div>
+                <div class="col span-1-of-4">
+                    <img src="testdum-removebg-preview.png" alt="Aptitude" style="height:210px; width:auto;margin-top:39px;margin-left:-10px;">
+                    <p>Confused about your <span>Aptitude</span>?</p>
+                    <p>We'll help you.</p><br><br>
+                    <a href="../aptiquizques.php" class="btn-full"><b>Take the test</b></a>
+                </div>
+                <div class="col span-1-of-4">
+                    <img src="test3img.png" alt="Personality">
+                    <p>Confused about your <span>Personality</span>?</p>
+                    <p>We'll help you.</p><br><br>
+                    <a href="../personalityques.php" class="btn-full"><b>Take the test</b></a>
+                </div>
+                <div class="col span-1-of-4">
+                    <img src="test4.png" alt="Orientation">
+                    <p>Confused about your <span>Orientation</span>?</p>
+                    <p>We'll help you.</p><br><br>
+                    <a href="../orientationques.php" class="btn-full"><b>Take the test</b></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form" id="contact">
+            <div class="row">
+                <h2 style="font-weight:400;padding-left: 530px;font-size: 200%;padding-bottom: 50px;">We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="POST" action="dbfeedback.php" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name<span>*</span></label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name"  id="name" placeholder="Your name" required>
+                         </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email<span>*</span></label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your Email ID" required>
+                         </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="finduss" id="finduss">
+                                <option value="friends"selected>Friends</option>
+                                <option value="family" >Family</option>
+                                <option value="faculty">Faculty</option>
+                                <option value="others">Others</option>
+                            </select>
+                         </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" id= "message" placeholder="Your message">Your message</textarea>
+                         </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" name="submit" value="SUBMIT" style="text-decoration: none;
+                            color:rgb(85, 148, 231);
+                            padding:10px;
+                            background-color: rgb(235, 223, 155);
+                            border: 2px solid rgb(235, 223, 155);
+                            border-radius: 7%;">
+                         </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="footer">
+            <p>Done by:</p>
+            <a href="https://www.linkedin.com/in/shinjon-das-154b04135/">Shinjon Das</a>
+            <a href="https://www.linkedin.com/in/shriyashish-mishra-200157191/">Shriyashish Mishra</a>
+        </section>
+    </body>
+</html>

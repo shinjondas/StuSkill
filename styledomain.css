@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(rgba(85, 148, 231, 0.753),rgba(78, 151, 247, 0.705)),url(frontend/confetti.png);
+    color:#fff;
+    font-size: 120%;
+}
+form{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:rgba(140, 181, 235, 0.877) ;
+    width:60%;
+}

@@ -1,0 +1,3 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.534)),linear-gradient(rgba(20, 108, 223, 0.514),rgba(78, 151, 247, 0.692)),url(frontend/test2img.png);
+}
